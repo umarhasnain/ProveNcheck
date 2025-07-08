@@ -1,3 +1,4 @@
+import CategorySlider from '@/components/CategorySlider'
 import Header from '@/components/Header'
 import HeroSection from '@/components/HeroSection'
 import React from 'react'
@@ -7,6 +8,7 @@ const page = () => {
     <div>
       <Header/>
       <HeroSection/>
+        <CategorySlider />
     </div>
   )
 }
