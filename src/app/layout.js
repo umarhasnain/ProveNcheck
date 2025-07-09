@@ -2,6 +2,14 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+// Use this in your layout or _app file
+import { Inter } from 'next/font/google';
+import { PlanProvider } from "@/context/PlanContext";
+
+const inter = Inter({
+  subsets: ['latin'],
+});
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,9 +32,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header/>
-        {children}
-        <Footer/>
+        <PlanProvider><Header />
+          {children}
+          <Footer /></PlanProvider>
+
       </body>
     </html>
   );
