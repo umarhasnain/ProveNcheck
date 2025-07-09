@@ -1,8 +1,24 @@
 @import "tailwindcss";
+@import "aos/dist/aos.css";
+
+/* styles/globals.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primaryColor: #1B2B47;
+  --primary:#36719E;
+  --secondary:#6CA9D7;
+  --lightBG:#E3F0FA;
+  --OffWhite: #F8FCFE
 }
 
 @theme inline {
