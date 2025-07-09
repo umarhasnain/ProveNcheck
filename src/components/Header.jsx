@@ -153,7 +153,7 @@ const Header = () => {
             <Link href="/packages" className="hover:text-blue-500 transition">
               Packages
             </Link>
-            <Link href="#contact" className="hover:text-blue-500 transition">
+            <Link href="/contact-us" className="hover:text-blue-500 transition">
               Contact Us
             </Link>
           </nav>

@@ -5,6 +5,7 @@ import { useRef, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 const categories = [
   { name: "ATV", image: "/assets/imgs/imgi_11_atv.png" },
@@ -80,6 +81,7 @@ const CategorySlider = () => {
                 data-aos-delay={index * 100}
               >
                 <div className="h-32 flex justify-center items-center relative rounded-t-xl overflow-hidden">
+                 <Link href={`/category/${cat.name}`}>
                   <Image
                     src={cat.image}
                     alt={cat.name}
@@ -88,6 +90,7 @@ const CategorySlider = () => {
                    
                     className="object-cover"
                   />
+                 </Link>
                 </div>
                 <div className="p-3 text-center font-semibold text-gray-700">
                   {cat.name}

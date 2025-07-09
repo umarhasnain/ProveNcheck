@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "aos/dist/aos.css";
-
+.form-input {
+  @apply w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white text-sm;
+ }
 /* styles/globals.css */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
