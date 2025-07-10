@@ -198,16 +198,16 @@ const Header = () => {
               <Link href="/" onClick={() => setMobileMenu(false)}>
                 Home
               </Link>
-              <Link href="#about" onClick={() => setMobileMenu(false)}>
+              <Link href="/about" onClick={() => setMobileMenu(false)}>
                 About
               </Link>
-              <Link href="#services" onClick={() => setMobileMenu(false)}>
+              <Link href="/services" onClick={() => setMobileMenu(false)}>
                 Services
               </Link>
               <Link href="/packages" onClick={() => setMobileMenu(false)}>
                 Packages
               </Link>
-              <Link href="#contact" onClick={() => setMobileMenu(false)}>
+              <Link href="/contact" onClick={() => setMobileMenu(false)}>
                 Contact Us
               </Link>
             </nav>
