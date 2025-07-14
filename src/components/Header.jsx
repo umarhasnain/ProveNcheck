@@ -100,6 +100,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -164,7 +166,7 @@ const Header = () => {
             className="md:hidden"
             aria-label="Open menu"
           >
-            <Menu size={28} />
+            <MenuIcon size={28} />
           </button>
         </div>
       </header>
@@ -189,23 +191,23 @@ const Header = () => {
                 onClick={() => setMobileMenu(false)}
                 aria-label="Close menu"
               >
-                <X size={28} />
+                <CloseIcon size={28} />
               </button>
             </div>
             <nav className="flex flex-col gap-5 font-medium text-gray-800">
               <Link href="/" onClick={() => setMobileMenu(false)}>
                 Home
               </Link>
-              <Link href="#about" onClick={() => setMobileMenu(false)}>
+              <Link href="/about" onClick={() => setMobileMenu(false)}>
                 About
               </Link>
-              <Link href="#services" onClick={() => setMobileMenu(false)}>
+              <Link href="/services" onClick={() => setMobileMenu(false)}>
                 Services
               </Link>
               <Link href="/packages" onClick={() => setMobileMenu(false)}>
                 Packages
               </Link>
-              <Link href="#contact" onClick={() => setMobileMenu(false)}>
+              <Link href="/contact" onClick={() => setMobileMenu(false)}>
                 Contact Us
               </Link>
             </nav>

@@ -12,7 +12,7 @@ const categories = [
   { name: "Bike", image: "/assets/imgs/imgi_12_bike.png" },
   { name: "Boat", image: "/assets/imgs/imgi_13_boat.png" },
   { name: "Cars", image: "/assets/imgs/imgi_14_car.png" },
-  { name: "Carvana", image: "/assets/imgs/imgi_15_karvaan.png" },
+  { name: "Karvaan", image: "/assets/imgs/imgi_15_karvaan.png" },
   { name: "Truck", image: "/assets/imgs/imgi_17_truck.png" },
 ];
 
