@@ -111,6 +111,12 @@ const VehicleReportPlans = () => {
 
     paddle.Checkout.open({
       items: [{ priceId }],
+      settings:{
+        displayMode:'overlay',
+        theme:'dark',
+        successUrl:'https://www.provencheck.com/success'
+
+      },
       customer: {
         email: 'user@example.com', // Optional: dynamically pass actual user
       },
