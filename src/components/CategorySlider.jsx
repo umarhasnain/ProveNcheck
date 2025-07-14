@@ -14,6 +14,7 @@ const categories = [
   { name: "Cars", image: "/assets/imgs/imgi_14_car.png" },
   { name: "Karvaan", image: "/assets/imgs/imgi_15_karvaan.png" },
   { name: "Truck", image: "/assets/imgs/imgi_17_truck.png" },
+  { name: "Trailer", image: "/assets/imgs/imgi_16_trailer.png" },
 ];
 
 const CategorySlider = () => {
