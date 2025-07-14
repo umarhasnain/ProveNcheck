@@ -7,7 +7,7 @@ import { FaCheckCircle } from 'react-icons/fa';
 const plans = [
   {
     title: 'Basic',
-    price: '$30.00',
+    price: '$30.99',
     duration: 'Delivered within 12 to 24 hours',
     features: [
       'Vehicle Overview',
@@ -21,7 +21,7 @@ const plans = [
   },
   {
     title: 'Standard',
-    price: '$60.00',
+    price: '$60.99',
     duration: 'Delivered within 10 to 12 hours',
     features: [
       'All Basic Features',
@@ -35,7 +35,7 @@ const plans = [
   },
   {
     title: 'Premium',
-    price: '$90.00',
+    price: '$90.99',
     duration: 'Delivered within 6 to 8 hours',
     features: [
       'All Standard Features',
