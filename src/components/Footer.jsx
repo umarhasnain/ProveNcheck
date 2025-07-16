@@ -21,7 +21,7 @@ const Footer = () => {
             </span>
           </div>
           <p className="text-sm mb-6">
-            Vehicles Crafter is an Approved AutoCheck Data Provider.
+            ProveNcheck  is an Approved AutoCheck Data Provider.
             <br />
             All logos, trademarks and registered trademarks presented are the
             property of their respective owners.
@@ -47,27 +47,27 @@ const Footer = () => {
           <h3 className="text-white font-semibold mb-4">Useful Links</h3>
           <ul className="space-y-3">
             <li>
-              <a href="#" className="hover:text-white transition">
+              <a href="/home" className="hover:text-white transition">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <a href="/about" className="hover:text-white transition">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <a href="/services" className="hover:text-white transition">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <a href="/packages" className="hover:text-white transition">
                 Packages
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <a href="/contact" className="hover:text-white transition">
                 Contact Us
               </a>
             </li>

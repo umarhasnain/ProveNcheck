@@ -35,7 +35,7 @@
 //   {
 //     name: "Robart L",
 //     message:
-//       "I've used a few vehicle history report services before, but Vehicles Crafter is by far the best. Their reports are detailed, accurate, and delivered quickly. I especially loved how they included information about previous owners and service history.",
+//       "I've used a few vehicle history report services before, but ProveNcheck is by far the best. Their reports are detailed, accurate, and delivered quickly. I especially loved how they included information about previous owners and service history.",
 //     image: "/assets/avatars/avatar1.png",
 //     trust: true,
 //   },
@@ -157,7 +157,7 @@ import "aos/dist/aos.css";
 const testimonials = [
   {
     name: "Robart L",
-    text: `I've used a few vehicle history report services before, but Vehicles Crafter is by far the best. Their reports are detailed, accurate, and delivered quickly. I especially loved how they included information about previous owners and service history. It made me feel confident in my purchase. Great job, Vehicles Crafter!`,
+    text: `I've used a few vehicle history report services before, but ProveNcheck is by far the best. Their reports are detailed, accurate, and delivered quickly. I especially loved how they included information about previous owners and service history. It made me feel confident in my purchase. Great job, ProveNcheck!`,
     avatar: "/assets/imgs/home3-testi-01.png",
   },
   {
