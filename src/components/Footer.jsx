@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { HiOutlineMail } from "react-icons/hi";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -79,24 +80,24 @@ const Footer = () => {
           <h3 className="text-white font-semibold mb-4">Customer Support</h3>
           <ul className="space-y-3 mb-6">
             <li>
-              <a href="#" className="hover:text-white transition">
+              <Link href="/privacy-policy" className="hover:text-white transition">
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <Link href="/terms-and-condition" className="hover:text-white transition">
                 Terms & Conditions
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <Link href="/refund-policy" className="hover:text-white transition">
                 Refund Policy
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <Link href="/faqs" className="hover:text-white transition">
                 FAQ
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="flex items-center space-x-2">
@@ -117,12 +118,12 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm">
         All Rights Reserved by{" "}
-        <a
-          href="#"
+        <Link
+          href="/home"
           className="text-blue-500 hover:underline transition"
         >
            ProveNcheck
-        </a>
+        </Link>
       </div>
     </footer>
   );
